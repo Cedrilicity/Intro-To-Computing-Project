@@ -1,0 +1,65 @@
+* {
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.header {
+  width: 100%;
+  font-size: 14;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Gid {
+  margin-inline: 10px;
+  height: 25px;
+}
+#Gid:hover {
+  cursor: pointer;
+}
+.about, .contact, .basket {
+  margin-inline: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.about:hover, .contact:hover, .basket:hover {
+  color: #1967d2;
+}
+.whitespace {
+  height: 70px;
+}
+.pixelByGoogle {
+  height: 250px;
+  margin-bottom: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+}
+.new {
+  display: block;
+  background-color: #e8f0fe;
+  margin: 0 auto;
+  width: 30px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #062e6f;
+  cursor: pointer;
+}
+.phoneImage {
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+.phoneName {
+  cursor: pointer;
+}
