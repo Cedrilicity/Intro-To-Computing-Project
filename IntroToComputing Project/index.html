@@ -1,6 +1,9 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+    <title>GixelpyBoogle</title>
   </head>
   <body>
     <header class="header">
@@ -9,13 +12,19 @@
           <img id="Gid" src="IMAGES/G.png">
         </div>
         <div class="about">
-          <p id="about">About</p>
+          <a href="about.html">
+            <p id="about">About</p>
+          </a>
         </div>
         <div class="contact">
-          <p id="contact">Contact</p>
+          <a href="contact.html">
+            <p id="contact">Contact</p>
+          </a>
         </div>
         <div class="basket">
-          <p id="basket">Your basket</p>
+          <a href="basket.html">
+            <p id="basket">Your basket</p>
+          </a>
         </div>
       </div>
     </header>
@@ -23,6 +32,21 @@
     <div class="pixelByGoogle">
       <p id="pixelByGoogle">Pixel. The only phone<br>engineered by Google.</p>
     </div>
+    <section class="modal hidden">
+      <div class="modelphone">
+        <p>phonemodel</p>
+      </div>
+      <div class="modal-image">
+        <img src="">
+      </div>
+      <div class="price">
+        <p>price</p>
+      </div>
+      <div class="addToCart">
+        <input type="button" name="addButton" value="Add to cart"></input>
+      </div>
+    </section>
+    <div class="overlay hidden"></div>
     <div class="container">
       <div class="phones">
         <img class ="phoneImage" src="IMAGES/Pixel9Pro-XL.webp">
